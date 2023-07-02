@@ -108,6 +108,7 @@ section {
 .home-img img {
   width: 25vw;
   margin-left: 3rem;
+  border-radius: 5%;
 }
 
 .home-content p {
@@ -432,6 +433,7 @@ section {
   .home-img img {
     width: 70vw;
     margin-top: 4rem;
+    border-radius: 5%;
   }
   .about {
     flex-direction: column;

@@ -30,7 +30,7 @@ function for_other_projects(data){
         const content = `
         <div class="portfolio-box">
         
-        <img src="./images/me.jpeg" alt="" />
+        <img src="./images/projects_placeholder.png" alt="" />
         <div class="portfolio-layer">
         <h4>${result.name}</h4>
         <p>
