@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <!-- to use jquery -->
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <title>Ali Hydir</title>
+
+    <!-- box icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <!-- custom css for portfolio -->
+    
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo"> Hydir </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a href="https://www.google.com/">Blog</a>
+        </nav>
+    </header>
+
+
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, Its Me</h3>
+            <h1>Ali Haider</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+
+            <p>
+                Unleashing the Power of Code: <br />
+                Experience Driven Developer with Passion to <br />
+                <center><span id="code_about_me">Code</span></center>
+                <br />
+                <br />
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/ali_hydir">
+                    <i class="bx bxl-instagram"> </i></a>
+                <a href="https://www.linkedin.com/in/ali-hydir">
+                    <i class="bx bxl-linkedin-square"></i></a>
+                    <!-- 03089 -->
+                <a href="https://twitter.com/alihydirr"> <i class="bx bxl-twitter"></i></a>
+                <a href="https://github.com/ali-haidir"><i class="bx bxl-github"></i></a>
+            </div>
+
+            <!-- 0308089 -->
+            <a href="" class="btn" id="download_btn" download>Download Portfolio
+                <i class="bx bx-cloud-download"></i>
+            </a>
+        </div>
+
+        <!-- 0308089 -->
+        <div class="home-img">
+            <img src="/images/me.jpeg" alt="" />
+        </div>
+    </section>
+
+
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <!-- 0308089 -->
+            <img src="/images/me.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Developer</h3>
+            <p>
+                <!-- 03089 -->
+                I am a developer with handfull of experience in application developement.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde sequi earum doloremque iure, saepe assumenda recusandae, cumque libero id voluptatibus quibusdam quas necessitatibus, pariatur labore? Cumque eveniet possimus dolorum velit!
+
+            </p>
+
+            <h4>Here are a few <span>technologies</span> I've been working with recently: </h4>
+            <ul id="my_some_skills">
+                <li><i class="bx bxl-python"></i> Python</li>
+                <li><i class="bx bxl-flask"></i> Flask</li>
+                <li><i class="bx bxl-jquery"></i> jQuesry</li>
+                <li><i class="bx bxl-javascript"></i> JavaScript (ES6+)</li>
+                <li><i class="bx bxl-vuejs"></i> Vue JS</li>
+                <li><i class="bx bxl-react"></i> React</li>
+            </ul>
+
+            <br>
+
+            <!-- 03089 -->
+            <a href="https://github.com/ali-haidir" class="btn">GitHub <i class="bx bxl-github"></i></a>
+        </div>
+    </section>
+
+
+    <!-- Experience Section Design -->
+    <!-- 0308089 -->
+    <section class="experience" id="experience">
+
+        <div class="about-content">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <h3>Developer</h3>
+
+            <div class="parent_div_lets">
+                <div class="experience-btn">
+                    <button id="1" class="my_1" onclick="toggle_discription(1)">Huawei</button>
+                    <button id="2" onclick="toggle_discription(2)">Greenvorxs</button>
+                    <button id="3" onclick="toggle_discription(3)">NTC</button>
+                </div>
+
+
+                <div class="discription" id="Huawei" style="display: block;">
+                <!-- 0308089 -->
+                <h3 class="heading_experience">Automation Engineer <a href=""> <span>@Huawei</span></a></h3>
+                <h5>
+                    January 2023 - Present
+                </h5>
+                <br>
+                <ul id="duties">
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet molestias aspernatur natus vero ea ullam quae eum. Voluptatem dolore, officia recusandae aut minus maxime quam laborum provident eos, molestiae explicabo?</li>
+                    <li>Lorem</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui assumenda, fugit doloremque voluptate obcaecati sequi hic repellendus porro aperiam iure voluptates libero velit necessitatibus quaerat veritatis? Dolore, sit ullam?</li>
+                </ul>
+                </div>
+
+                <div class="discription" id="Greenvorxs">
+                    <h3 class="heading_experience">Software Developer <a href=""> <span>@Greenvorxs</span></a></h3>
+                <h5>
+                    January - December 2022
+                </h5>
+                <br>
+                <ul id="duties">
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet molestias aspernatur natus vero ea ullam quae eum. Voluptatem dolore, officia recusandae aut minus maxime quam laborum provident eos, molestiae explicabo?</li>
+                    <li>Lorem</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui assumenda, fugit doloremque voluptate obcaecati sequi hic repellendus porro aperiam iure voluptates libero velit necessitatibus quaerat veritatis? Dolore, sit ullam?</li>
+                </ul>
+                </div>
+
+
+                <div class="discription" id="NTC">
+                    <h3 class="heading_experience">Software Developer <a href=""> <span>@NTC</span></a></h3>
+                <h5>
+                    June - September 2021
+                </h5>
+                <br>
+                <ul id="duties">
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet molestias aspernatur natus vero ea ullam quae eum. Voluptatem dolore, officia recusandae aut minus maxime quam laborum provident eos, molestiae explicabo?</li>
+                    <li>Lorem</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui assumenda, fugit doloremque voluptate obcaecati sequi hic repellendus porro aperiam iure voluptates libero velit necessitatibus quaerat veritatis? Dolore, sit ullam?</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Services Section Design -->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="service-container">
+
+            <div class="service-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Developement</h3>
+                <p>
+                    <!-- 0308089 -->
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reprehenderit atque odit ullam voluptate cumque. Fugit est magnam aut vel ea possimus harum eos. Assumenda alias officiis qui dolor quaerat.
+
+                </p>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-code-curly"></i>
+                <h3>Application Developement</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae aliquid sint. Fuga repellendus eligendi recusandae officia esse praesentium velit est, culpa qui in molestias excepturi. Cum, accusamus. Quis, rem!
+
+                </p>
+            </div>
+
+
+            <div class="service-box">
+                <i class="bx bx-command"></i>
+                <h3>Automation</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae aliquid sint. Fuga repellendus eligendi recusandae officia esse praesentium velit est, culpa qui in molestias excepturi. Cum, accusamus. Quis, rem!
+
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Main Projects Section Design -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container" id="best_projects">
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Other Projects Section Design -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Other <span>Projects</span></h2>
+
+        <div class="portfolio-container" id="other_projects">
+
+            
+        </div>
+
+        <div class="archive" id="archive">
+            <a href="/archive.html" class="btn" id="archive_btn">Archive
+                Projects <i class="bx bx-archive"></i>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="contact-heading" id="contact-heading">Contact <span>Me</span></h2>
+
+        <form action="#" id="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Mobile Number">
+                <input type="email" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+        </form>
+
+        <!-- 0308089 -->
+        <div class="test" id="say_hello">
+            <div class="btn" id="hello" onclick="sendMail()">Say Hello <icon-icon name="arrow-forward"
+                aria-hidden="true"></icon-icon>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer Section Design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Designed & Built By Ali Haider</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"> <i class="bx bxs-arrow-to-top"></i></a>
+        </div>
+    </footer>
+
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script src="js/other_projects.js"></script>
+
+    <!-- icon icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
